@@ -8,3 +8,8 @@ pillow
 weasyprint
 # cors対策
 django-cors-headers
+
+# heroku用
+gunicorn
+django-heroku
+dj-database-url
