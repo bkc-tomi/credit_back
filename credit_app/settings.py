@@ -128,5 +128,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, '00static')
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'https://credit-app-bkc-tomi.vercel.app'
+    'https://credit-app.vercel.app'
 ]
