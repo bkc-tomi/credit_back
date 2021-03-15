@@ -1,1 +1,1 @@
-web: gunicorn pyground.wsgi --log-file -
+web: gunicorn credit_app.wsgi --log-file -
