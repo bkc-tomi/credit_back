@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/pdf.css' %}" rel="stylesheet">
+    <title>履歴書</title>
+</head>
+<body>
+    <h1>開発中です。</h1>
+    {{ print_date }}現在
+    {{ basicInfo.kana }}
+    {{ basicInfo.name }}
+    {{ basicInfo.gender }}
+    {{ basicInfo.birth }}
+    {{ basicInfo.years }}才
+</body>
+</html>
