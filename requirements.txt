@@ -1,0 +1,10 @@
+# ウェブアプリケーションフレームワーク
+Django
+# PostgreSQLへ接続するためのドライバ
+psycopg2
+# 画像アップロードを扱う
+pillow
+# PDF作成用
+weasyprint
+# cors対策
+django-cors-headers
